@@ -4,14 +4,11 @@
 
 The referenced application has frequent performance issues and has been going down every day for about 17 straight days, due to which the application was not in a position to handle more than 5 to 10 concurrent users, which would lead to performance issues every day, even for a simple report generation.
 
+### Solution  
+
 I, upon investigating, identified multiple points of failure that are causing the application to run into performance issues which eventually bring the application down.
 
 I have helped in applying a wave of performance tuning, automation, and modernization approaches to this application, which resulted in a 100% incident reduction, ranging from 23+ incidents per month to zero incidents.
-
-
-### Solution  
-
-I helped identify multiple points of failure and gaps that were causing the application to run into performance issues, which eventually brought the application down. 
 
 #### Point of failure. 
 
@@ -20,9 +17,7 @@ I helped identify multiple points of failure and gaps that were causing the appl
 -	Minimal connection pool size. 
 -	SQL queries run over 20 minutes during performance issues which would cause cascading disasters and consume all of the application's heap. 
 -	Batch job keeps inserting into DB tables, which were indexed and have a size of over 400,000 records 
--	Existing batch jobs are scheduled in a window where they will continue running during peak business hours, causing DB deadlocks. 
-
-I applied a wave of performance tuning, automation, and modernization approaches to this application, which resulted in a 100% incident reduction, ranging from 25+ incidents per month to zero incidents. 
+-	Existing batch jobs are scheduled in a window where they will continue running during peak business hours, causing DB deadlocks.
 
 #### Fixes applied
 
