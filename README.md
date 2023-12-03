@@ -38,9 +38,9 @@ I applied a wave of performance tuning, automation, and modernization approaches
 
  ### Timeline
 
- The above solutions was done in three waves 
+ The above solutions were done in three waves 
 
- - The first step was to stop the bleeding, so I applied the Db connection closure, Query timeout, and increase in the connection pool immediately. (Query timeout caused some issues with some users, but helped us in-app going down from 3 times a day to 2 times a day)
- - The next step was to work with Business and DBA to apply and automate the retention policy, and also parallelly work with the interface team to change the Batch run file upload time and redefine the batch run schedule time.
+ - The first step was to stop the bleeding, so I applied the Db connection closure, Query timeout, and increase in the connection pool immediately. 
+ - The next step was to work with users and DBA to apply and automate the retention policy, and also parallelly work with the interface team to change the Batch run file upload time and redefine the batch run schedule time.
  - Finally, the rest of the modernization was done.  
  
