@@ -34,3 +34,13 @@ I applied a wave of performance tuning, automation, and modernization approaches
 -	Worked with the business to redefine the batch job schedule time so that it runs before the business time window. For example, instead of running the batch job at 11 PM PST, we triggered the batch job at 4 PM PST, which is the business end time, which gave the batch job about 7 additional hours to process. 
 -	Finally, we adopted a legacy application modernization approach that integrated various processes ranging from maximizing the application to implementing CI/CD processes using Jenkins, unit testing, TRO scanning(via Nexus, Whitehat DATS, and SATS), Sonar, and Artifactory integration and established Git as a proper version control management tool.
 -	Technologies Used: Heap Dump analyzer, SQL query analyzer, Sonar, Nexus, Whitehat Maven, Jenkins, JUnit, Artifactory, Git
+
+
+ ### Timeline
+
+ The above solutions was done in three waves 
+
+ - The first step was to stop the bleeding, so I applied the Db connection closure, Query timeout, and increase in the connection pool immediately. (Query timeout caused some issues with some users, but helped us in-app going down from 3 times a day to 2 times a day)
+ - The next step was to work with Business and DBA to apply and automate the retention policy, and also parallelly work with the interface team to change the Batch run file upload time and redefine the batch run schedule time.
+ - Finally, the rest of the modernization was done.  
+ 
