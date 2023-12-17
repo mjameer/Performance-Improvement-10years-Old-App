@@ -10,6 +10,8 @@ I, upon investigating, identified multiple points of failure that are causing th
 
 I have helped in applying a wave of performance tuning, automation, and modernization approaches to this application, which resulted in a 100% incident reduction, ranging from 23+ incidents per month to zero incidents.
 
+![image](https://github.com/mjameer/Performance-Improvement-10years-Old-App/assets/11364104/7cfc7eb8-5e05-4b49-85dc-4c75aefad55b)
+
 #### Point of failure. 
 
 -	The Database Connection is not closed at the code level. 
