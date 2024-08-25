@@ -10,7 +10,7 @@ I, upon investigating, identified multiple points of failure that are causing th
 
 I have helped in applying a wave of performance tuning, automation, and modernization approaches to this application, which resulted in a 100% incident reduction, ranging from 23+ incidents per month to zero incidents.
 
-![image](https://github.com/mjameer/Performance-Improvement-10years-Old-App/assets/11364104/ed2e9c9d-1546-4d7f-b828-70dc99abae1a)
+![image](https://github.com/user-attachments/assets/1675ba3d-1284-4c79-8567-d34ccb10a7d7)
 
 #### Point of failure. 
 
