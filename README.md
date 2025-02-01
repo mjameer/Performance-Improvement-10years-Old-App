@@ -35,6 +35,8 @@ I have helped in applying a wave of performance tuning, automation, and moderniz
 -	These optimizations collectively resulted in a [10-20]% increase in processing performance and a [20-30]% reduction in execution time and latency, significantly boosting the scalability and responsiveness of the application.
 -	Finally, we adopted a legacy application modernization approach that integrated various processes ranging from maximizing the application to implementing CI/CD processes using Jenkins, unit testing, TRO scanning(via Nexus, Whitehat DATS, and SATS), Sonar, and Artifactory integration and established Git as a proper version control management tool.
 
+<img width="866" alt="image" src="https://github.com/user-attachments/assets/486f0c2c-bcbb-4151-89cf-42dd4d767508" />
+
 #### Technologies Used: 
 
 - Java 8, Heap Dump analyzer, SQL query analyzer, Sonar, Nexus, Whitehat Maven, Jenkins, JUnit, Artifactory, Git
