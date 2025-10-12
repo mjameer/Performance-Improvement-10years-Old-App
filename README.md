@@ -50,5 +50,11 @@ I have helped in applying a wave of performance tuning, automation, and moderniz
  - The first step was to stop the bleeding, so I applied the Db connection closure, Query timeout, and increase in the connection pool immediately. 
  - The next step was to work with users and DBA to apply and automate the retention policy, and also parallelly work with the interface team to change the Batch run file upload time and redefine the batch run schedule time.
  - Java 8 and DSA improvements
- - Finally, the rest of the modernization was done.  
+ - Finally, the rest of the modernization was done.
+
+### Improvement
+
+- The batch jobs that were runnign for 7 hours , after this upgrade now runs under 15 minutes ..
+- the app page loads increaserd from 2 minuts to less than 2 seconds.
+- and the no of cuncurrent users from 10 increased to 500s
  
